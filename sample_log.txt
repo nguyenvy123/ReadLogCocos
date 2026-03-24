@@ -1,0 +1,31 @@
+--------- beginning of system
+--------- beginning of main
+01-15 10:23:11.123  1234  1234 I CocosPlatform: App starting...
+01-15 10:23:11.456  1234  1234 I CocosEngine: Cocos Creator v3.8.1
+01-15 10:23:12.001  1234  1234 I Director: OpenGL ES 3.0 initialized
+01-15 10:23:12.345  1234  1234 I SceneManager: Loading scene: MainMenu
+01-15 10:23:13.001  1234  1234 I JSB: JavaScript engine initialized
+01-15 10:23:14.567  1234  1234 I EventDispatcher: Touch events registered
+01-15 10:23:15.000  1234  1234 I AudioManager: Audio system ready
+01-15 10:23:20.111  1234  1234 I UIManager: MainMenu loaded successfully
+01-15 10:23:25.234  1234  1234 I NetworkManager: Connecting to game server...
+01-15 10:23:25.890  1234  1234 I NetworkManager: Connected. Session ID: abc123
+01-15 10:23:30.001  1234  1234 I SceneManager: User tapped Play button
+01-15 10:23:30.100  1234  1234 I SceneManager: Transitioning to: GameScene
+01-15 10:23:30.234  1234  1234 I ResourceManager: Loading game assets...
+01-15 10:23:31.456  1234  1234 I ResourceManager: Loading texture: bg_game.png (2048x2048)
+01-15 10:23:31.789  1234  1234 I ResourceManager: Loading texture: characters.png (4096x4096)
+01-15 10:23:32.001  1234  1234 W MemoryWarning: Available memory low: 128MB remaining
+01-15 10:23:32.112  1234  1234 I ResourceManager: Loading texture: items.png (2048x2048)
+01-15 10:23:32.445  1234  1234 E OpenGL: GL_OUT_OF_MEMORY: Failed to allocate texture memory
+01-15 10:23:32.446  1234  1234 E TextureCache: Cannot create texture for: items.png
+01-15 10:23:32.447  1234  1234 E ResourceManager: Asset load failed: items.png
+01-15 10:23:32.500  1234  1234 W Scheduler: Frame skip detected (2 frames)
+01-15 10:23:32.567  1234  1234 E Director: Render error in scene transition
+01-15 10:23:32.568  1234  1234 F CocosApp: FATAL: Uncaught exception in game loop
+01-15 10:23:32.569  1234  1234 F CocosApp: java.lang.RuntimeException: Failed to initialize GameScene
+01-15 10:23:32.570  1234  1234 F CocosApp:   at com.company.game.GameScene.init(GameScene.java:145)
+01-15 10:23:32.571  1234  1234 F CocosApp:   at com.company.game.SceneManager.loadScene(SceneManager.java:89)
+01-15 10:23:32.572  1234  1234 F CocosApp:   at com.company.game.MainActivity.onSceneTransition(MainActivity.java:234)
+01-15 10:23:32.600  1234  1234 I CrashHandler: Saving crash report...
+01-15 10:23:32.700  1234  1234 I CrashHandler: App terminated
